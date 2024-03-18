@@ -1,0 +1,92 @@
+.calculate{
+margin-top: 20px;
+margin-left: 20px;
+   
+   
+    .form{
+              
+        .col1{
+            border: 3px solid rgba(73, 70, 63, 0.825);
+            border-radius: 20px;
+            background: transparent;
+            backdrop-filter: blur(20px);
+        }
+        .row{
+            .mb-3{
+                color: black;
+
+                .box{
+                    background-color:rgb(172, 221, 137);
+                    color: rgb(77, 22, 0);
+
+                    &:hover{
+                        border:rgb(255, 251, 0);
+                        background-color: rgb(248, 248, 113);
+                        color:  rgb(77, 22, 0);
+                    }
+
+                }
+            }
+        }
+        .age{
+            background-color:rgb(172, 221, 137);
+            color: rgb(77, 22, 0);
+            &:hover{
+                border:rgb(255, 251, 0);
+                background-color: rgb(248, 248, 113);
+                color:  rgb(77, 22, 0);
+            }
+        }
+        .activity{
+            background-color:rgb(172, 221, 137);
+            color: rgb(77, 22, 0);
+            &:hover{
+                border:rgb(255, 251, 0);
+                background-color: rgb(248, 248, 113);
+                color:  rgb(77, 22, 0);
+            }
+        }
+    }
+    .custom-button{
+        padding-left: 170px;
+        .button{
+            width: 200px;
+            height: 75px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            background-color: rgb(239, 174, 133);
+            border: 1px solid rgb(255, 0, 0);
+            color: rgb(84, 57, 13);
+            font:bolder;
+            font-size: larger;
+            margin-bottom: 15px;
+            margin-left: 15%;
+            cursor: pointer;
+
+            &:hover{
+                border:rgb(255, 251, 0);
+                background-color: rgb(248, 248, 113);
+                color:  rgb(77, 22, 0);
+            }
+        }
+    }
+    img{
+        height: 400px;
+        margin-left: 30%;
+
+    }
+}
+.result{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 20%;
+    border: 3px solid rgba(73, 70, 63, 0.825);
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: rgb(77, 22, 0);
+
+}

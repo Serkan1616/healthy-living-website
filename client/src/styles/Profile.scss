@@ -1,0 +1,40 @@
+
+.profile{
+ .row{
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 60%;
+   
+   
+ }
+    .profilePhoto {
+        max-width: 50%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .information{
+        padding-left: 230px;
+        padding-top: 30px;
+        padding-right: 300px;
+    
+    }
+    .nameEmail{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .statistics{
+        padding-left: 230px;
+    }
+
+    .col1{
+        
+        border: 3px solid rgba(73, 70, 63, 0.825);
+        border-radius: 20px;
+        background: transparent;
+        backdrop-filter: blur(20px);
+      
+    }
+
+    
+}

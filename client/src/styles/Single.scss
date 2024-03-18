@@ -1,0 +1,111 @@
+$lightGreen : #b9e7e7;
+
+//SINGLE 
+
+.single{
+    display: flex;
+    gap: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+    .content{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        
+
+
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .user{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            background-color:rgba(255, 229, 113, 0.736);
+
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+
+            }
+
+            span{
+                font-weight: bold;
+            }
+
+        }
+        .edit{
+            display: flex;
+            gap: 5px;
+
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;                
+            }
+        }
+        h1{
+            font-size: 42px;
+            color: #333;
+
+        }
+        p{
+            text-align: justify;
+            line-height: 30px;
+        }
+    }
+
+    .menu{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1{
+            font-size: 20px;
+            color:black;
+            text-decoration: none;
+        }
+        .post{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            img{
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+
+            }
+
+            h2{
+
+                color: black;
+            }
+            button{
+                width: max-content;
+                padding: 7.5px 15px;
+                border: none;
+                cursor: pointer;
+                background-color: rgb(251, 240, 187);
+                border: 1px solid rgb(255, 204, 0);
+                color: rgb(84, 57, 13);
+
+                &:hover{
+                    border: 1px solid white;
+                    background-color: $lightGreen;
+                    color: black;
+                }
+            }
+        }  
+    } 
+   }

@@ -1,0 +1,104 @@
+$lightGreen : #b9e7e7;
+
+.home{
+
+    .posts{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        .post{
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            height: min-content;
+            gap: 100px;
+            &:nth-child(2n+1){
+            flex-direction: row-reverse;
+           
+            }
+            
+            .img{
+                flex: 2;
+                position: relative;
+                border: 3px solid rgba(251, 184, 0, 0.825);
+                border-radius: 40px;
+               
+
+                img{
+                    width: 100%;
+                    max-height: 400px;
+                    object-fit: cover;
+                    border-radius: 40px;
+                    height: 100%;
+                }
+
+                &::after{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(251, 121, 0, 0.825);
+                    position: absolute;
+                    top: -20px;
+                    left: 20px;
+                    z-index: -1;
+                }
+            }
+            .content{
+                border: 2px solid rgba(255, 229, 113, 0.736);
+                flex: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                border-radius: 40px;
+                background: rgba(255, 232, 128, 0.736);
+                
+
+                .link{
+
+                    text-decoration: none;
+                }
+
+                h1{
+                    text-align: center;
+                    font-size: 48px;
+                    color: black
+                    
+                }
+
+                p{
+                    font-size: 18px;
+                    text-align: left;
+                    overflow: auto;
+                    max-height: 6em; /* Set the maximum height to 3 lines */
+                    line-height: 1.5em; /* Set the line height to control the number of visible lines */
+                    overflow: hidden;
+                    text-overflow: ellipsis; /* Add an ellipsis (...) at the end of the visible text */
+                    
+                }
+                button{
+                    width: max-content;
+                    padding: 10px 20px;
+                    margin-bottom: 15px;
+                    margin-left: 40%;
+                    border: none;
+                    cursor: pointer;
+                    background-color: rgb(251, 203, 72);
+                    border: 1px solid rgba(251, 184, 0, 0.825);
+                    border-radius: 20px;
+                    color: black;
+                    
+                    
+
+                    &:hover{
+                        border: 1px solid rgba(251, 121, 0, 0.825);
+                        background-color: rgba(255, 166, 83, 0.825);
+                        color: black;
+                    }
+                }
+            }
+
+        }
+       
+    }
+   }

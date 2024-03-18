@@ -1,0 +1,37 @@
+
+
+$lightGreen : #b9e7e7;
+
+.app{
+    
+    background: url('44.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    .container{
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+
+
+}
+.orihome{
+
+    justify-content: center;   
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    h3{
+        color: rgb(36, 18, 0);
+        font:bold;
+        background-color: rgb(206, 184, 158);
+    }
+   
+    
+}
